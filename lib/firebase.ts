@@ -4,6 +4,7 @@ import { initializeApp } from "firebase/app"
 import { getFirestore } from "firebase/firestore"
 import type { Analytics } from "firebase/analytics" // ✅ Import the correct type
 
+// Use your firebase credentials
 const firebaseConfig = {
   apiKey: "",
   authDomain: "",
